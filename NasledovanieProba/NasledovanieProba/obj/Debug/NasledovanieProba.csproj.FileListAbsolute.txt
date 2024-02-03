@@ -1,0 +1,7 @@
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\bin\Debug\NasledovanieProba.exe.config
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\bin\Debug\NasledovanieProba.exe
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\bin\Debug\NasledovanieProba.pdb
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\obj\Debug\NasledovanieProba.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\obj\Debug\NasledovanieProba.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\obj\Debug\NasledovanieProba.exe
+C:\Users\Home\source\repos\NasledovanieProba\NasledovanieProba\obj\Debug\NasledovanieProba.pdb
