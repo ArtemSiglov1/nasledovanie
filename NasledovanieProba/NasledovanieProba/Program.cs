@@ -12,7 +12,7 @@ namespace NasledovanieProba
         static void Main(string[] args)
         {
             int n = 1;
-            //List <Person> person=new List <Person> ();
+            List <Person> person=new List <Person> ();
 
             // for (int i = 0; i < n; i++)
             // {
@@ -33,9 +33,11 @@ namespace NasledovanieProba
                 string surname = Console.ReadLine();
                 string name = Console.ReadLine();
                 string otchestvo = Console.ReadLine();
+                DateTime hb = DateTime.Parse(Console.ReadLine());
                 string dol = Console.ReadLine();
                 int oklad = int.Parse(Console.ReadLine());
                 DateTime startJob = DateTime.Parse(Console.ReadLine());
+                person.Add(new Person(surname, name, otchestvo,hb));
                 staffs.Add(new Microsoft(surname, name, otchestvo, dol, oklad, startJob));
                 Console.WriteLine("Хотите добавить еще работника-да/нет");
                 string yn = Console.ReadLine();
@@ -49,9 +51,13 @@ namespace NasledovanieProba
                 }
             }
 
-            foreach (Microsoft p in staffs)
+            foreach (Person p in staffs)
             {
-                Console.WriteLine($"Данные о сотруднике:\n{ p.ToString()}");
+                Console.WriteLine($"Данные о сотруднике:\n{p}");
+            }
+            foreach(Person person1 in person)
+            {
+                Console.WriteLine($"Данные о человеке:\n{person1}");
             }
            
 

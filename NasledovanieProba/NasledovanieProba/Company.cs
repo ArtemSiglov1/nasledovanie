@@ -65,7 +65,7 @@ namespace NasledovanieProba
         /// <returns>метод вывода из базового класса, место работы, должность, оклад, дата начала работы</returns>
         public override string ToString()
         {
-            return$"{base.ToString()}\n Место работы-{nameCompany}\n Должность-{Dol}\n Оклад-{Oklad}\n Дата начала работы-{StartJob.ToShortDateString()}\n";
+            return$"{base.Print()} Место работы-{nameCompany}\n Должность-{Dol}\n Оклад-{Oklad}\n Дата начала работы-{StartJob.ToShortDateString()}\n";
         }
     }
 }
